@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(auth)/register.jsx", "app/(auth)/login.jsx", "app/(tabs)/index.jsx", "app/(tabs)/profile.jsx", "components/itemForm/step2.jsx", "components/itemForm/step1.jsx", "components/itemForm/step3.jsx", "app/(product)/add.jsx", "components/CardMini.jsx", "components/card.jsx", "app/search/[search].jsx", "components/ItemCard.jsx", "app/(tabs)/bids.jsx", "components/buttons/CatagoryButton.tsx", "components/DemandCard.jsx", "app/(pages)/account.jsx"  ]
+}
